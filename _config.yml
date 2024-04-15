@@ -1,11 +1,11 @@
-title: Your Community Name
+title: MLSA OAU
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is an awesome community of developers sharing knowledge and growing together.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: communityhandle
-github_username:  communityrepo
+  MLSA OAU is a vibrant community of developers sharing knowledge and growing together at Obafemi Awolowo University.
+baseurl: "/index.md" # the subpath of your site, e.g. /blog
+url: "https://mlsa-oau.github.io" # the base hostname & protocol for your site
+twitter_username: mlsaoau
+github_username:  mlsaoau
 
 # Build settings
 markdown: kramdown
