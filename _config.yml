@@ -1,3 +1,14 @@
-theme: jekyll-theme-minimal
-title: MLSA OAU
-description: Bookmark this to keep an eye on my project updates!
+title: Your Community Name
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is an awesome community of developers sharing knowledge and growing together.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: communityhandle
+github_username:  communityrepo
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
