@@ -1,0 +1,23 @@
+---
+layout: page
+title: Community Events
+permalink: /events/
+---
+
+## Upcoming Events
+
+{% for event in site.data.events.upcoming %}
+### {{ event.name }}
+- **Date**: {{ event.date }}
+- **Location**: {{ event.location }}
+- **Description**: {{ event.description }}
+{% endfor %}
+
+## Past Events
+
+{% for event in site.data.events.past %}
+### {{ event.name }}
+- **Date**: {{ event.date }}
+- **Location**: {{ event.location }}
+- **Description**: {{ event.description }}
+{% endfor %}
