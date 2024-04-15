@@ -1,3 +1,10 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
