@@ -1,17 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
-}
+---
+---
 
-header, footer {
-    background: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
 
 nav ul {
     list-style: none;
@@ -38,3 +31,78 @@ nav ul li {
 .blog-post {
     margin-bottom: 40px;
 }
+
+/* General Body and Typography Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #0056b3;  /* Deep blue background */
+    color: #ffffff;             /* White text */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;          /* Ensures links are white */
+    text-decoration: none;   /* Removes underline from links */
+    font-weight: bold;
+}
+
+/* Hover effect for navigation links */
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333; /* Darker background for footer */
+    color: #ffffff;            /* White text for readability */
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Adding some space around the container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
