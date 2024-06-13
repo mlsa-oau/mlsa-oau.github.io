@@ -20,6 +20,7 @@ permalink: /events/
 - **Date**: {{ event.date }}
 - **Location**: {{ event.location }}
 - **Description**: {{ event.description }}
+- **Registration**: {{ event.register }}
 {% endfor %}
 
 ## Past Events
