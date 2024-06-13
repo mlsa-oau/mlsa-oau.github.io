@@ -1,0 +1,9 @@
+- name: "Open Source Chatbot"
+  contributors: "Jane Doe, John Smith"
+  description: "A sophisticated AI-driven chatbot designed to help users navigate community resources."
+  url: "http://example.com/project/chatbot"
+
+- name: "Community App"
+  contributors: "Alice Johnson, Bob Lee"
+  description: "An app that connects community members with events, projects, and each other."
+  url: "http://example.com/project/community-app"
