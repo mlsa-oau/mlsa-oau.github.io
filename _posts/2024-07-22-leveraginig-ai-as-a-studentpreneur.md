@@ -2,7 +2,6 @@
 layout: post
 title: "Leveragining AI as a Studentpreneur"
 date: 2024-07-22
-location: "Opolo Hub, OAU (Tentative)"
 categories: update
 ---
 
