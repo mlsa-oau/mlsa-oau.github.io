@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Welcome to Our Community Blog"
-date: 2023-04-01
+title: "Leveraging AI as a Studentpreneur"
+date: 2024-07-22
 categories: update
 ---
 
