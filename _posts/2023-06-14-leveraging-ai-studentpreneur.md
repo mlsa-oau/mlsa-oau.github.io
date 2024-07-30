@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Leveraging AI as a Studentpreneur"
-date: 2023-07-22
+date: 2023-08-17
 categories: update
 ---
 
